@@ -1,0 +1,214 @@
+body{
+	position: relative;
+	font-size: 13px;
+	min-width: 940px;
+	min-height: 550px;
+	font-family: arial,sans-serif;
+	overflow: auto;
+	margin:0 ;
+	padding:0;
+}
+a{
+	text-decoration: none;
+	color:black;
+
+}
+a:hover{
+	text-decoration: underline;
+}
+li{
+
+	list-style-type: none;
+	display: inline-block;
+
+}
+#header .menu{
+
+	float:right;
+	
+	padding: 0;
+	margin:0;
+}
+#header{
+	min-width: 500px;
+	position: relative;
+
+
+}
+#bolas{
+	float:right;
+	position: absolute;
+	z-index: 1;
+	top: 40px;
+	right: 17px;
+	display: none;
+
+}
+#appy:hover #bolas{
+	display:block; 
+}
+#header input{
+	border:0;
+	font-weight: bold;
+	background-color: #3c6dbc;
+	color:white;
+	border-radius: 3px;
+	width:72px;
+	height:30px;
+	margin-right: 20px;
+}
+
+#header img{
+	
+	
+	position: relative;
+	top:4px;
+	margin:0 3px;
+
+
+}
+
+#header li{
+	padding-right:11px;
+
+}
+#header a{
+	color:#696969;
+}
+#image{
+	clear:right;
+	max-width:275px;
+	margin:10px auto;
+	padding: 0px;
+}
+#img{
+	margin-top:135px;
+}
+#search-box {
+	top:0;
+	border-radius: 1px;
+	position: relative;
+	margin:10px auto;
+	margin-top: 30px;
+	min-width:500px;
+	max-width:600px;
+	box-shadow: 0px 1px 3px #888888;
+}
+#search-box input{
+	border:1px solid rgb(230,230,230);	
+	border-radius: 1px;
+	height:45px;
+	min-width:500px;
+	width: 600px;
+	font-size:16px;
+	padding-right: 20px;
+	padding-left: 8px;
+	outline: none;
+	}
+#search-box input:hover{
+	box-shadow: 0px 1px 6px #888888;
+	
+}
+#voice{
+	position: absolute;
+	left:560px;
+	top:4px;
+	
+		
+}
+
+
+#search{
+	width:110px;
+	position: absolute;
+	top: 50px;
+	left: 520px;
+	display: none;
+
+}
+#voice:hover+#search{
+	display:block;
+}
+#boxes{
+	
+	margin:20px auto;
+	padding:10px;
+	max-width: 295px
+	
+}
+#box-1,#box-2{
+	background-color: rgb(240,240,240);
+	height:35px;
+	font-weight: bold;
+	margin: 0 3px;
+	padding:10px 17px;
+	border-radius: 2px;
+	border:0.5px solid rgb(240,240,240);
+	color:rgb(128,128,128);
+}
+#box-1:hover,#box-2:hover{
+	background-color: rgb(240,240,240);
+	height:35px;
+	font-weight: bold;
+	margin: 0 3px;
+	padding:10px 17px;
+	border-radius: 2px;
+	border:0.5px solid rgb(200,200,200);
+	color:black;
+
+}
+#links{
+	
+	text-align: center;
+	margin:0 auto;
+	
+	
+
+}
+#links span{
+	word-spacing: 8px;
+
+	
+}
+#links a{
+	color: blue;
+
+	
+}
+
+#footer{
+	position: absolute;
+	background-color: #f4f6f9;
+	width: 100%;
+	
+	border:1px solid #dee1ea;
+	min-width: 940px;
+	bottom: -13px;
+	left: 0;
+	
+	
+
+}
+#footer li{
+	margin:0 10px;
+	color:rgb(128,128,128);
+
+}
+#foot-left{
+	float:left;
+}
+#foot-right{
+	float:right;
+}
+#left{
+	
+	color:rgb(128,128,128);
+}
+#right{
+	
+	color:rgb(128,128,128);
+}
+#footer a{
+	color:rgb(128,128,128);
+
+}
